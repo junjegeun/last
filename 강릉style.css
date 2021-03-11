@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+h1 {
+  border-bottom: 2px green solid;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0;
+}
+ul {
+  margin: 0px;
+  border-right: 2px green solid;
+  width: 100px;
+}
+ul, li {
+  padding-right: 2px;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+#ex {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+@media(max-width:1200px)  {
+  li  {
+      border-right: none;
+      padding: 10px;
+  }
+  #eer {
+    border-right: none;
+  }
+  #ex {
+    display: block;
+  }
+}
